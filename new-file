@@ -1,0 +1,10 @@
+start with types of files [tracked [unmodified - modified - staged] and unttracked]
+And locations of directories [local and ]
+
+first step : crate dir [mkdir <dir name>]
+cd [into new dir] 
+init git into new dir : intit git
+open the new dir and navigate in it [ls -al] --> Still no changes in objects folder
+make new file in master [touch <file name>]
+know status of new file (untracked file) --> [git status]
+staged the changes and check the status [git add new-file] & [git status]
