@@ -15,7 +15,7 @@ staged the changes and check the status [git add new-file] & [git status]
 commit the changes [git commit <file-name> -m "commit text"]
 go to file .git/objects and invistigate changes on it [cd ]
 view expanded details on Git objects such as blobs, trees, tags, and commits [git show]
-make new change and direct commit 
+make new change and direct commit [git commit -am " commit message"]
 ========
 git commit --help
 git commit -h
