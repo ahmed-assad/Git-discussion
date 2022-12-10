@@ -21,3 +21,7 @@ git commit --help
 git commit -h
 ========
 
+create new dir 
+init git 
+split command terminal (terminal for repo - one more for remote-repo)
+in first-repo terminal --> git remote add  <NAME> <PATH .git>
