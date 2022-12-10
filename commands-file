@@ -1,0 +1,60 @@
+file architecture
+git architecture
+
+some commands 
+order commands
+
+
+git --help
+git config --global user.name ""
+git config --global user.email ""
+git config --list
+git init
+git config 
+git status
+git ls-files
+git ls-files -s
+find .git/objects/ -type f
+git add .
+git commit -m
+git log
+git cat-file -t (SHA-1 for commit object)
+git cat-file -p (SHA-1 for commit object)
+git cat-file -p (SHA-1 for tree object)
+git status -s
+git diff 
+git diff --staged
+git log --oneline
+git config --global core.editor "vim"
+git show (SHA-1)
+git diff e296d01..dfe7ad9
+git mv
+git rm --cashed
+git restore
+git restore --staged
+git commit -am ""
+git commit --amend
+git reset HEAD~2
+git reset HEAD
+git reflog
+git reset --hard HEAD@{2}
+git revert
+git tag 
+git log --online --decorate --graph --all
+git branch 
+git switch 
+git merge 
+git branch --merged
+git branch -d 
+git merge rebase
+git remote 
+git remote -v
+git branch -r 
+git remote add 
+git fetch
+
+4:9:36
+git  push --set-upstream origin 
+git pull origin
+git branch -vv
+
