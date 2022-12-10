@@ -25,3 +25,22 @@ create new dir
 init git 
 split command terminal (terminal for repo - one more for remote-repo)
 in first-repo terminal --> git remote add  <NAME> <PATH .git>
+
+
+Push whole 2- repos to Github to save for while
+make github repo as remote repo for two local repos and push all files to cloud
+(
+    git remote add origin https://github.com/ahmed-assad/Git-discussion-remote-repo.git
+    git branch -M main
+
+)
+(
+    git remote add origin https://github.com/ahmed-assad/Git-discussion.git
+    git branch -M main
+    git push -u origin main
+)
+
+
+
+
+git pull  /d/first-repo
